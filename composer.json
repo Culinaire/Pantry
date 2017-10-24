@@ -10,7 +10,6 @@
             "email": "frankmccoy.d@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "illuminate/support": "^5.6@dev"
     },
