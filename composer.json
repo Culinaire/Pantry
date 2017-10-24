@@ -1,0 +1,32 @@
+{
+    "name": "culinare/pantry",
+    "description": "Laravel Package for Restaurants",
+    "homepage": "https://github.com/Culinaire/pantry",
+    "type": "laravel-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank McCoy",
+            "email": "frankmccoy.d@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.6@dev"
+    },
+    "autoload": {
+      "psr-4": {
+        "Pantry\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Pantry\\Providers\\PantryServiceProvider"
+        ],
+        "aliases": {
+          "Pantry": "Pantry\\Facades\\PantryFacade"
+        }
+      }
+    }
+}
