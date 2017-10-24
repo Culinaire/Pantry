@@ -16,7 +16,7 @@
     },
     "autoload": {
       "psr-4": {
-        "Pantry\\": "src/"
+        "Pantry\\": "src/Pantry/"
       }
     },
     "extra": {
