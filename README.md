@@ -1,1 +1,3 @@
-pantry
+# Pantry
+
+The Culinaire Console Companion.
